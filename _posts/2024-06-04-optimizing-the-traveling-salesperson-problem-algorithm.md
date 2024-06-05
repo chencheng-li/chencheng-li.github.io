@@ -7,6 +7,7 @@ tags: AI, Python, Optimization
 categories: AI
 tabs: true
 ---
+
 Key takeaways from this post:
 
 1. The Traveling Salesperson Problem is a classic optimization problem with many real-world applications.
@@ -21,7 +22,6 @@ The Traveling Salesperson Problem (TSP) is a classic optimization problem with n
 # **The Problem: Shipping Pineapples**
 
 > Imagine that you've been assigned the task to plan the route of a container ship loaded with pineapples. The ship starts in Panama, loaded with delicious Fairtrade pineapples. There are four other ports, New York, Casablanca, Amsterdam, and Helsinki, where pineapple-craving citizens are eagerly waiting. The ship must visit each of the four destination ports exactly once, but the order in which each port is visited is free. The goal is to minimize the carbon emissions, which means that a shorter route is better than a longer one.
-> 
 
 ## Listing Pineapple Routes
 
@@ -29,7 +29,7 @@ To solve the TSP, we start by listing all possible routes, or permutations, of t
 
 ```python
 portnames = ["PAN", "AMS", "CAS", "NYC", "HEL"]
- 
+
 def permutations(route, ports):
     # Write your recursive code here
     if not ports < 1: # check if there is not port in ports
@@ -43,7 +43,7 @@ def permutations(route, ports):
             remaining_ports = ports[:i] + ports[i+1:] # A method that remove the current ports
             # Recursively generate permutations with the updated route and remaining ports
             permutations(next_route, remaining_ports)
-            
+
 # This will start the recursion with 0 ("PAN") as the first stop
 permutations([0], list(range(1, len(portnames))))
 
@@ -108,19 +108,16 @@ It’s crazy neat, we learn from it that we can manipulate our variable in param
 Now we add more details to our problem:
 
 > Having listed the alternatives, next we can calculate the carbon emissions for each of them. Below you'll find the distances between the ports in kilometers in a five-by-five table.
-> 
-> 
-> 
-> |  | PAN | AMS | CAS | NY | HEL |
-> | --- | --- | --- | --- | --- | --- |
-> | PAN | 0 | 8943 | 8019 | 3652 | 10545 |
-> | AMS | 8943 | 0 | 2619 | 6317 | 2078 |
-> | CAS | 8019 | 2619 | 0 | 5836 | 4939 |
-> | NY | 3652 | 6317 | 5836 | 0 | 7825 |
-> | HEL | 10545 | 2078 | 4939 | 7825 | 0 |
-> 
+>
+> |     | PAN   | AMS  | CAS  | NY   | HEL   |
+> | --- | ----- | ---- | ---- | ---- | ----- |
+> | PAN | 0     | 8943 | 8019 | 3652 | 10545 |
+> | AMS | 8943  | 0    | 2619 | 6317 | 2078  |
+> | CAS | 8019  | 2619 | 0    | 5836 | 4939  |
+> | NY  | 3652  | 6317 | 5836 | 0    | 7825  |
+> | HEL | 10545 | 2078 | 4939 | 7825 | 0     |
+>
 > Let's assume that the boat is relatively modern and produces 0.020 kg of CO2 emissions per kilometer for the amount of pineapples that we are shipping. Thus, you can calculate the emissions caused by traveling from Panama to Amsterdam by first looking up the distance in the first row, second column of the table (highlighted in the above table): 8943 km, and then multiplying this with 0.020kg/km to get 178.9 kg.
-> 
 
 Here's the updated code that calculates the emissions for each route and keeps track of the route with the lowest emissions:
 
@@ -172,7 +169,7 @@ def permutations(route, ports):
 
 def main():
     # Do not edit any (global) variables using this function, as it will mess up the testing
-    # This will start the recursion 
+    # This will start the recursion
     permutations([0], list(range(1, len(portnames))))
 
     # print the best route and its emissions

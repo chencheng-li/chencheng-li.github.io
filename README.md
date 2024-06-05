@@ -238,7 +238,6 @@ Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarasc
 
 For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
 
-
 ## Features
 
 ### Light/Dark Mode
