@@ -1,200 +1,163 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Chencheng Li",
+    "label": "UC San Diego CS | Software Engineering & Applied AI | Co-founder, JGP E-commerce",
+    "url": "https://chencheng-li.github.io",
+    "summary": "I’m a computer science undergraduate at UC San Diego, expecting to graduate in December 2026. My background combines software engineering, AI research, business operations, and entrepreneurship.\nI build practical tools with Python, SQL, FastAPI, PostgreSQL, React, and TypeScript. In Agent OS, I integrated Amazon operations data and developed data-quality checks and decision-support tools. My coursework covers data structures, algorithms, databases, scalable analytics, computer vision, and deep learning. I implemented configurable ResNet models in PyTorch and contributed an IndexedDB data layer to a team software project.\nIn UCSD’s Early Research Scholars Program, I developed Blender APIs and worked on model evaluation. I now tutor CSE110 Software Engineering.\nCo-founding an e-commerce business and working in industry gave me experience communicating with customers, coordinating across teams, and connecting technical implementation with real business needs.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "city": "San Diego",
+      "region": "California",
+      "countryCode": "US"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "UC San Diego",
+      "position": "Undergraduate Tutor | CSE110 Software Engineering",
+      "startDate": "2026-09",
+      "summary": "Guide students on React and TypeScript projects, support lab sessions, and grade coursework with feedback on implementation."
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "UC San Diego",
+      "position": "Undergraduate Researcher | Early Research Scholars Program",
+      "startDate": "2024-08",
+      "endDate": "2025-08",
+      "highlights": [
+        "Contributed to an LLM-based 3D scene evaluation and refinement pipeline in Professor Manmohan Chandraker’s Computer Vision Lab.",
+        "Developed Blender APIs and worked on model evaluation; annotated the orientations of approximately 13,000 Objaverse models.",
+        "Co-authored and presented a poster at the UCSD Undergraduate Research Symposium and improved tool packaging, macOS path handling, and project documentation."
+      ]
+    },
+    {
+      "name": "City College of San Francisco",
+      "position": "Tutor",
+      "startDate": "2023-01",
+      "endDate": "2024-05"
+    },
+    {
+      "name": "City College of San Francisco",
+      "position": "Teaching Assistant",
+      "startDate": "2023-01",
+      "endDate": "2024-05"
+    },
+    {
+      "name": "JGP E-commerce",
+      "position": "Co-Founder",
+      "highlights": [
+        "Assembled the initial team of more than 10 people across product, operations, and design, and established supplier relationships.",
+        "Worked on Amazon store operations and built SaaS frameworks for financial and operational workflows, including Amazon operations and an internal ERP."
+      ]
+    },
+    {
+      "name": "Artlii",
+      "position": "Marketing Manager",
+      "startDate": "2018-11",
+      "endDate": "2019-05",
+      "summary": "Managed the daily operations of Artlii’s Amazon Canada store."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "institution": "University of California San Diego",
+      "studyType": "B.S. in Computer Science, expected December 2026",
+      "area": "Computer Science",
+      "courses": [
+        "Advanced Data Structures (CSE100R)",
+        "Algorithm Design and Analysis (CSE101)",
+        "Software Engineering (CSE110)",
+        "Principles of Database Systems (CSE132A)",
+        "Systems for Scalable Analytics (DSC102)",
+        "Introduction to Deep Learning and Applications (ECE176)",
+        "Deep Learning (CSE151B)",
+        "Computer Vision I and II (CSE152A/B)"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "institution": "University of California San Diego",
+      "studyType": "Incoming M.S. student, starting Winter 2027",
+      "area": "Computer Science"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "institution": "City College of San Francisco",
+      "studyType": "Computer Science coursework, 2022–2024",
+      "score": "4.0"
+    },
+    {
+      "institution": "University of California Berkeley",
+      "studyType": "EECS Summer Program, 2023"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Agent OS",
+      "description": "AI-Assisted Operations & Data Quality Platform",
+      "highlights": [
+        "Built an Amazon operations backend with Python, FastAPI, and PostgreSQL, bringing together order, inventory, advertising, fee, and product data from four stores in a React/Next.js dashboard.",
+        "Added freshness and missing-input checks, source tracking, and decision traces to surface evidence gaps before execution.",
+        "Developed inventory-aware advertising anomaly detection, issue deduplication, and replenishment recommendations with explicit constraints and validation."
+      ],
+      "url": "https://chencheng-li.github.io/projects/agent-os/"
+    },
+    {
+      "name": "Configurable ResNet Models in PyTorch",
+      "description": "ECE176 course project",
+      "highlights": [
+        "Implemented configurable ResNet models in PyTorch, enabling per-block BatchNorm/Dynamic Tanh substitutions and ablation studies across ResNet-18 and ResNet-50."
+      ],
+      "url": "https://chencheng-li.github.io/projects/pytorch-resnet/"
+    },
+    {
+      "name": "TritonCard",
+      "description": "CSE110 Team Software Project",
+      "highlights": [
+        "Implemented an IndexedDB data layer for a team project, including card definitions, player collections, asynchronous JSON loading, and APIs to add, remove, and query collection items.",
+        "Improved shared initialization, local and GitHub Pages asset-path handling, and the collection page’s responsive layout and game integration."
+      ],
+      "url": "https://chencheng-li.github.io/projects/tritoncard/"
+    },
+    {
+      "name": "LLM Decision-Making Evaluation",
+      "description": "Operations-reasoning evaluation",
+      "highlights": [
+        "Evaluated 20 operations-reasoning problems under three input conditions, with three repetitions per condition and 180 recorded final answers.",
+        "Examined model outputs and reference answers separately, using independent scoring and task-clustered analysis to compare results."
+      ],
+      "url": "https://chencheng-li.github.io/projects/llm-decision-evaluation/"
+    },
+    {
+      "name": "3D Scene Evaluation and Refinement",
+      "description": "Early Research Scholars Program, UC San Diego",
+      "highlights": [
+        "Contributed to an LLM-based 3D scene evaluation and refinement pipeline in Professor Manmohan Chandraker’s Computer Vision Lab.",
+        "Developed Blender APIs and worked on model evaluation; annotated the orientations of approximately 13,000 Objaverse models.",
+        "Co-authored and presented a poster at the UCSD Undergraduate Research Symposium and improved tool packaging, macOS path handling, and project documentation."
+      ],
+      "url": "https://chencheng-li.github.io/projects/3d-scene-evaluation/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Software Engineering & Applied AI",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "SQL",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "FastAPI",
+        "PostgreSQL",
+        "Git",
+        "Blender",
+        "Model Evaluation",
+        "Data Quality",
+        "IndexedDB",
+        "Java",
+        "C",
+        "C++",
+        "JavaScript",
+        "Anaconda"
+      ]
     }
   ]
 }

@@ -8,6 +8,7 @@ middle_name:
 last_name: Li
 email: chl321@ucsd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  UC San Diego CS | Software Engineering & Applied AI | Co-founder, JGP E-commerce
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -167,7 +168,6 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@chenchengli/feed
-
 
 # -----------------------------------------------------------------------------
 # Collections
