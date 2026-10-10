@@ -8,6 +8,7 @@ middle_name:
 last_name: Li
 email: chl321@ucsd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  UC San Diego CS | Software Engineering & Applied AI | Co-founder, JGP E-commerce
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -168,7 +169,6 @@ external_sources:
   - name: medium.com
     rss_url: https://medium.com/@chenchengli/feed
 
-
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
@@ -269,7 +269,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ["robots.txt", "assets/js/search/*.js", "assets/css/main.css"]
   uglifier_args:
     harmony: true
 
@@ -288,8 +288,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: [""] # these tags will be displayed on the front page of your blog
-display_categories: [""] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
